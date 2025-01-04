@@ -1,0 +1,10 @@
+@media (max-width: 550px) {
+  .header-nav a{
+    display: none;
+  }
+  .burger-menu{
+    display: block;
+    
+  }
+}
+
