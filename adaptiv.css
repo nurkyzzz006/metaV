@@ -20,25 +20,24 @@
     top: 130px;
     left: 6px;
   }
-  .what-img img{
+  .what-img img {
     width: 100%;
   }
-  .what{
+  .what {
     gap: 40px;
   }
-
 }
 @media (max-width: 1050px) {
   .explore-text h1 {
     line-height: 50px;
   }
-  p{
-    line-height:
+  p {
+    line-height: ;
   }
   .k {
     gap: 40px;
   }
-  .what-text button{
+  .what-text button {
     margin-bottom: 90px;
   }
   .btns button:first-child {
@@ -55,7 +54,6 @@
   .zvez img {
     width: 75%;
   }
-
 }
 @media (max-width: 850px) {
   .zvez {
@@ -71,13 +69,16 @@
   .explore-text {
     gap: 25px;
   }
-  h1{
+  h1 {
     line-height: 34px;
     margin-bottom: 10px;
   }
-p{
-  line-height: 27px;
-}
+  p {
+    line-height: 27px;
+  }
+  .btn button:first-child{
+    padding: 1px 15px;
+  }
 }
 @media (max-width: 770px) {
   .explore-text {
@@ -102,12 +103,15 @@ p{
   .explore-text {
     gap: 20px;
   }
-  p{
+  p {
     line-height: 23px;
-
   }
-  .what button{
+  .what button {
     padding: 6px 13px;
+  }
+  .how-block{
+    justify-content: center;
+    align-items: center;
   }
 }
 @media (max-width: 732px) {
@@ -132,10 +136,10 @@ p{
   .zvez img {
     width: 60%;
   }
-  .what{
+  .what {
     gap: 30px;
   }
-  .what button{
+  .what button {
     margin-bottom: 60px;
   }
 }
@@ -149,22 +153,24 @@ p{
   .btns button:last-child {
     padding: 2px 5px;
   }
-  .what button{
+  .what button {
     padding: 4px 12px;
     margin-bottom: 40px;
   }
-
 }
 @media (max-width: 690px) {
   .explore {
     flex-direction: column-reverse;
   }
-  .zvez{
+  .zvez {
     top: 125px;
     left: 15px;
   }
-  .zvez img{
+  .zvez img {
     width: 67%;
+  }
+  p {
+    font-size: 14px;
   }
   .btns button:first-child {
     padding: 4px 10px;
@@ -172,12 +178,19 @@ p{
   .btns button:last-child {
     padding: 4px 10px;
   }
-  .what{
+  .what-text button {
+    padding: 4px 14px;
+    margin-bottom: 25px;
+  }
+  .what {
     flex-direction: column;
+  }
+  .what-text {
+    margin-inline-end: auto;
   }
 }
 @media (max-width: 590px) {
-  .zvez{
+  .zvez {
     top: 110px;
     left: 15px;
   }
@@ -187,28 +200,28 @@ p{
   .btns button:last-child {
     padding: 3px 15px;
   }
-  .k{
+  .k {
     gap: 48px;
   }
 }
 @media (max-width: 500px) {
-  .zvez{
+  .zvez {
     top: 70px;
     left: 15px;
   }
   .btns button:first-child {
-    padding: 2px 15px;
+    padding: 1px 16px;
   }
   .btns button:last-child {
-    padding: 2px 15px;
+    padding: 1px 16px;
   }
-p{
-  line-height: 20px;
-}
-.explore-text h1{
-  line-height: 40px;
-}
-.k{
-  gap: 45px;
-}
+  .k {
+    gap: 35px;
+  }
+  p {
+    line-height: 20px;
+  }
+  .explore-text h1 {
+    line-height: 37px;
+  }
 }

@@ -81,7 +81,7 @@ h1 {
 }
 p {
   font-family: Poppins;
-  font-size: clamp(0.438rem, 0.142rem + 1.48vw, 1.25rem);
+  font-size: clamp(0.625rem, 0.398rem + 1.14vw, 1.25rem);
   font-weight: 400;
   line-height: 30px;
   color: rgba(255, 255, 255, 0.86);
@@ -130,14 +130,14 @@ p {
 }
 .k p {
   font-family: Orbitron;
-  font-size: clamp(0.625rem, 0.307rem + 1.59vw, 1.5rem);
+  font-size: clamp(0.925rem, 0.307rem + 1.59vw, 1.5rem);
   font-weight: 500;
   line-height: 30.1px;
   text-align: left;
 }
 .k p span {
   font-family: Poppins;
-  font-size: clamp(0.438rem, 0.188rem + 1.25vw, 1.125rem);
+  font-size: clamp(0.638rem, 0.188rem + 1.25vw, 1.125rem);
   font-weight: 400;
   line-height: 27px;
   color: white;
@@ -194,3 +194,80 @@ h1 span {
   background-clip: text;
 }
 /* what */
+
+/* how */
+.how {
+  padding: 100px 0;
+}
+.how-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.how-block{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+.block {
+  width: 365px;
+  height: 434px;
+  background: #090823;
+  padding: 15px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.block img {
+  border-top-right-radius: 20px;
+  margin-bottom: 15px;
+}
+h2 {
+  color: white;
+  font-family: Orbitron;
+  font-size: clamp(0.813rem, 0.653rem + 0.8vw, 1.25rem);
+  font-weight: 600;
+  line-height: 25.08px;
+  margin-bottom: 10px;
+}
+.block p {
+  font-family: Poppins;
+  font-size: clamp(0.638rem, 0.278rem + 0.8vw, 0.875rem);
+  font-weight: 400;
+  line-height: 21px;
+  color: white;
+}
+
+
+.btn{
+  display: flex;
+  gap: 16px;
+  margin-top: -20px;
+}
+.btn button:first-child {
+  padding: 4px 17px;
+  border-radius: 4px;
+  color: white;
+  font-family: Poppins;
+  font-size: clamp(0.438rem, 0.278rem + 0.8vw, 0.875rem);
+  font-weight: 500;
+  line-height: 30px;
+  background: linear-gradient(97.16deg, #d10ed1 12.04%, #10a3da 81.84%);
+  border: none;
+  margin-top: 50px;
+}
+.btn button:last-child {
+  padding: 4px 15px;
+  border-radius: 4px;
+  color: white;
+  font-family: Poppins;
+  font-size: clamp(0.438rem, 0.278rem + 0.8vw, 0.875rem);
+  font-weight: 500;
+  line-height: 30px;
+  border: 1px solid #d10ed1;
+  background: #090823;
+  margin-top: 50px;
+}
+/* how */
