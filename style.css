@@ -7,7 +7,7 @@
 .container {
   width: 100%;
   max-width: 1280px;
-padding-inline: 50px;
+  padding-inline: 40px;
   margin-inline: auto;
 }
 body {
@@ -50,18 +50,18 @@ h1 {
 #explore {
   padding-block: 100px;
 }
-.explore{
+.explore {
   display: flex;
   justify-content: space-between;
 }
-.explore-text{
-display: flex;
-flex-direction: column;
-gap: 40px;
+.explore-text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 .explore h1 {
   font-family: Orbitron;
-  font-size: clamp(1.00rem, 0.682rem + 2.84vw, 2.813rem);
+  font-size: clamp(1rem, 0.682rem + 2.84vw, 2.813rem);
   font-weight: 600;
   line-height: 68px;
   color: white;
@@ -69,7 +69,7 @@ gap: 40px;
 }
 .explore h1 span {
   font-family: Orbitron;
-  font-size: clamp(1.00rem, 0.568rem + 3.41vw, 3.125rem);
+  font-size: clamp(1rem, 0.568rem + 3.41vw, 3.125rem);
   font-weight: 700;
   background: linear-gradient(
     158.4deg,
@@ -81,12 +81,12 @@ gap: 40px;
 }
 p {
   font-family: Poppins;
-  font-size: clamp(0.538rem, 0.142rem + 1.48vw, 1.25rem);
+  font-size: clamp(0.438rem, 0.142rem + 1.48vw, 1.25rem);
   font-weight: 400;
-  line-height: 26px;
+  line-height: 30px;
   color: rgba(255, 255, 255, 0.86);
 }
-.btns{
+.btns {
   display: flex;
   gap: 30px;
 }
@@ -142,18 +142,55 @@ p {
   line-height: 27px;
   color: white;
 }
-.explore-img{
+.explore-img {
   position: relative;
 }
-.explore-img img{
+.explore-img img {
   width: 100%;
 }
-.zvez{
+.zvez {
   position: absolute;
-  top:100px;
+  top: 100px;
   left: -10px;
 }
-.zvez img{
+.zvez img {
   width: 100%;
 }
 /* explore */
+
+/* what */
+.what {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.that-img img {
+  width: 100%;
+}
+.what-text {
+}
+.what-text button {
+  padding: 8px 13px;
+  border-radius: 4px;
+  color: white;
+  font-family: Poppins;
+  font-size: clamp(0.5rem, 0.227rem + 1.36vw, 1.25rem);
+  font-weight: 500;
+  line-height: 30px;
+  background: linear-gradient(97.16deg, #d10ed1 12.04%, #10a3da 81.84%);
+  border: none;
+  margin-top: 50px;
+}
+h1 span {
+  font-family: Orbitron;
+  font-size: clamp(1rem, 0.368rem + 3.41vw, 3.125rem);
+  font-weight: 700;
+  background: linear-gradient(
+    158.4deg,
+    rgb(209, 14, 209) 10.9%,
+    rgb(16, 163, 218) 88.221%
+  );
+  color: transparent;
+  background-clip: text;
+}
+/* what */
