@@ -107,7 +107,7 @@
 }
 @media (max-width: 702px) {
   .explore-text {
-    gap: 1;
+    gap: 1px;
   }
   .btns button:first-child {
     padding: 2px 5px;
@@ -120,4 +120,53 @@
   .explore {
     flex-direction: column-reverse;
   }
+  .zvez{
+    top: 125px;
+    left: 15px;
+  }
+  .zvez img{
+    width: 67%;
+  }
+  .btns button:first-child {
+    padding: 4px 10px;
+  }
+  .btns button:last-child {
+    padding: 4px 10px;
+  }
+}
+@media (max-width: 590px) {
+  .zvez{
+    top: 110px;
+    left: 15px;
+  }
+  .btns button:first-child {
+    padding: 3px 15px;
+  }
+  .btns button:last-child {
+    padding: 3px 15px;
+  }
+  .k{
+    gap: 48px;
+  }
+}
+@media (max-width: 500px) {
+  .zvez{
+    top: 70px;
+    left: 15px;
+  }
+  .btns button:first-child {
+    padding: 2px 15px;
+  }
+  .btns button:last-child {
+    padding: 2px 15px;
+  }
+p{
+  line-height: 20px;
+}
+.explore-text h1{
+  line-height: 40px;
+}
+.k{
+  gap: 45px;
+}
 }
